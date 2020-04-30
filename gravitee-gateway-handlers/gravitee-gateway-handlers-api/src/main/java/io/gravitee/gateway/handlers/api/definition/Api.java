@@ -153,6 +153,7 @@ public class Api extends io.gravitee.definition.model.Api implements Reactable {
         return policies;
     }
 
+    /*
     private Map<String, Object> properties;
 
     @Override
@@ -169,6 +170,7 @@ public class Api extends io.gravitee.definition.model.Api implements Reactable {
 
         return Collections.emptyMap();
     }
+     */
 
     @Override
     public List<Entrypoint> entrypoints() {
